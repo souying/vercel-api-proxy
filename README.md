@@ -7,7 +7,15 @@
 
 (可强开QQ红域名)    
 
-vercel现在每月有100GB的免费流量。  
+vercel现在每月有100GB的免费流量。 
+
+This project is a Reverse proxy of vercel. Completely free, universal proxy, capable of representing all network interfaces, including openai, Midjournal, github, Google, Telegram, and more. Both HTTP and HTTPS interfaces, as well as single page proxies, are available in poor network environments. (In the case of directly opening the proxy page in the browser, the path of certain JS and CSS may not be correct, which will not have a significant impact on access.)    
+
+(OpenAI and other interface services can also be provided to mainland machines without the need for scientific internet access. The environment is very stable and the IP is also stable.)     
+
+(Can forcibly open QQ red domain names)    
+
+Vercel now has 100GB of free traffic per month.   
 
 ## 请您Star/Please Star   
 
