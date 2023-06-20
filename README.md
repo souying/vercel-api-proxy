@@ -1,7 +1,7 @@
 # vercel-api-proxy
 [English README](./README_EN.md)
 
-本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、github、google、Telegram等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接浏览器打开代理页面的情况下，由于某些js和css的路径可能会不对造成访问不到，页面样式有点小问题。）
+本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、github、google、Telegram等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接浏览器打开代理页面的情况下，由于某些js和css的路径可能会不对造成访问不到不会有大的影响。）
 
 vercel现在每月有100GB的免费流量。
 
@@ -21,7 +21,8 @@ vercel现在每月有100GB的免费流量。
 映射规则为/https/url映射到https接口，/http/url映射到http接口
 
 ## 示例
-例1 访问https://替换为你自己的域名.com/https/api.openai.com/v1/chat/completions 
+例1     
+访问https://替换为你自己的域名.com/https/api.openai.com/v1/chat/completions 
 实际上会替换为https://api.openai.com/v1/chat/completions
 ![demo1](img/demo1.png)
 
@@ -30,7 +31,8 @@ vercel现在每月有100GB的免费流量。
 
 所以使用的时候只需要设置一下openai.api_base="https://你的域名/https/api.openai.com/v1" 就可以了
 
-例2 访问https://你的域名.com/https/raw.githubusercontent.com/souying/serverMmon/
+例2   
+访问https://你的域名.com/https/raw.githubusercontent.com/souying/serverMmon/
 实际上会替换为https://raw.githubusercontent.com/souying/serverMmon/
 ![demo2](img/demo2.png)
 映射规则为/https/url映射到https接口，/http/url映射到http接口
@@ -39,7 +41,8 @@ vercel现在每月有100GB的免费流量。
 改为https://替换为你自己的域名.com/https/objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 就可以加速了。下图是github原始链接和加速后对比。可以看到效果杠杠的，每秒50kb小水管变成了每秒2-3mb
 ![github-download](img/github-download.png)
 
-例3 访问https://你的域名.com/https/www.google.com/search?q=vercel-api-proxy
+例3    
+访问https://你的域名.com/https/www.google.com/search?q=vercel-api-proxy
 实际上会替换为https://www.google.com/search?q=vercel-api-proxy
 ![demo3](img/demo3.png)
 代理google搜索结果页面
