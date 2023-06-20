@@ -7,7 +7,13 @@
 
 (可强开QQ红域名)    
 
-vercel现在每月有100GB的免费流量。
+vercel现在每月有100GB的免费流量。  
+
+## 请您Star/Please Star   
+
+如果您觉得此工具不错，请轻轻点击此页面右上角**Star**按钮增加项目曝光度，谢谢！软件完全免费（商用除外），只求大家Star和宣传给其他需要的朋友，谢谢！   
+
+If you think this tool is good, please gently click the **Star** button in the upper right corner at this page to increase the project exposure, thank you! The software is completely free (except for commercial use), only ask everyone to Star and promote it to other friends in need, thank you!    
 
 ## 部署
 [![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/souying/vercel-api-proxy)
