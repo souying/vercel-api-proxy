@@ -1,7 +1,9 @@
 # vercel-api-proxy
 [English README](./README_EN.md)
 
-本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、github、google、Telegram等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接浏览器打开代理页面的情况下，由于某些js和css的路径可能会不对造成访问不到不会有大的影响。）
+本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、Midjourney、github、google、Telegram等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接浏览器打开代理页面的情况下，由于某些js和css的路径可能会不对造成访问不到不会有大的影响。）     
+
+(openai等接口服务大陆机器也可无需科学上网环境很稳定ip也稳定)    
 
 vercel现在每月有100GB的免费流量。
 
