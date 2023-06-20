@@ -36,8 +36,8 @@ vercel现在每月有100GB的免费流量。
 所以使用的时候只需要设置一下openai.api_base="https://你的域名/https/api.openai.com/v1" 就可以了
 
 例2   
-访问https://你的域名.com/https/raw.githubusercontent.com/souying/serverMmon/
-实际上会替换为https://raw.githubusercontent.com/souying/serverMmon/
+访问https://你的域名.com/https/github.com/souying/serverMmon/
+实际上会替换为https://github.com/souying/serverMmon/
 ![demo2](img/demo2.png)
 映射规则为/https/url映射到https接口，/http/url映射到http接口
 
