@@ -42,7 +42,6 @@ If you think this tool is good, please gently click the **Star** button in the u
 例1     
 访问https://替换为你自己的域名.com/https/api.openai.com/v1/chat/completions 
 实际上会替换为https://api.openai.com/v1/chat/completions
-![demo1](img/demo1.png)
 
 如何在一些常见的开源项目中使用？
 一般开源项目都是引用的openai的库，可以看到里面有一个属性是api_base = os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1")
