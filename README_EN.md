@@ -19,7 +19,6 @@ The mapping rule is to map /https/url to the https interface, and /http/url to t
 
 demo1: visit https://yourdomain.com/https/api.openai.com/v1/chat/completions
 Actually will be replaced with https://api.openai.com/v1/chat/completions
-![demo1](img/demo1.png)
 
 demo2: visit https://yourdomain.com/https/raw.githubusercontent.com/souying/serverMmon
 Actually will be replaced with https://raw.githubusercontent.com/souying/serverMmon
