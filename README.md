@@ -40,7 +40,7 @@ If you think this tool is good, please gently click the **Star** button in the u
 
 ## 示例
 例1     
-访问https://替换为你自己的域名.com/https/api.openai.com/v1/chat/completions 
+访问https://替换为你自己的域名/https/api.openai.com/v1/chat/completions 
 实际上会替换为https://api.openai.com/v1/chat/completions
 
 如何在一些常见的开源项目中使用？
