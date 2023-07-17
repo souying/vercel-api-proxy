@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vercel-api-proxy</title>
+    <title>【免费】 vercel反向代理</title>
+    <style>
+        html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video,details,summary{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;}html,body,.wrapper{height:100%;width:100%;background-image:linear-gradient(to top,#c1dfc4 0%,#deecdd 100%);}input{font-family:inherit;}*,html,body{font-family:"Lato",serif;font-size:15px;font-weight:300;line-height:22px;}*:focus{outline:none;}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.UrlCheck{opacity:1;height:auto;}.UrlCheck{margin-top:0px !important;}.row{position:relative;width:100%;}.row:before,.row:after{content:"";display:table;line-height:0;}.row [class*="span"].noFloat{float:none;margin:2% auto;overflow:hidden;}.UrlCheck .span10{margin-top:70px !important;}h1.splash{font-size:48px;margin:0;margin-top:130px;margin-bottom:0px;line-height:52px;color:#FFF;text-shadow:0px 2px 4px rgba(0,0,0,0.5);}strong{font-weight:bold;}.UrlCheck .span10{background:rgba(255,255,255,0.5);padding:7px;overflow:hidden;margin-top:0px !important;max-width:800px;}.margin .span10{width:81.33333%;}.row [class*="span"]{float:left;position:relative;}textarea,input[type="text"],input[type="password"]{width:100%;background:#FFF;border:0px solid #CCC;padding:8px 5px;color:#333;}textarea,input[type="text"],input[type="password"]{width:75%;background:#EFEFEF;border:0px solid #CCC;padding:8px 5px;color:#22225d;float:left;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.row .textCenter{text-align:center;background:none;}.UrlCheck input[type="text"]{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-size:20px;height:58px;line-height:58px;width:100%;float:left;padding-left:10px;}.UrlCheck input[type="text"]{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-border-top-left-radius:4px;-moz-border-top-left-radius:4px;border-top-left-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-bottom-left-radius:4px;border-bottom-left-radius:4px;font-size:20px;height:58px;line-height:58px;width:70%;float:left;padding-left:10px;background:#FFF;}.UrlCheck #submitBtn{position:absolute;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-border-top-right-radius:4px;-moz-border-top-right-radius:4px;border-top-right-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-bottom-right-radius:4px;border-bottom-right-radius:4px;background:#9dca68;font-size:18px;height:58px;line-height:58px;border:0;font-weight:400;width:30%;text-align:center;margin-top:0px;color:#FFF;cursor:pointer;right:7px;top:7px;}a,a:visited{color:#22225e;text-decoration:none;}.footer{text-align:center;margin-top:-70px;padding:25px 0 0 0;z-index:1000;background:rgba(0,0,0,0.5);height:70px;}.footer a{margin-right:20px;}
+    </style>
 </head>
+
 <body>
-    vercel-api-proxy success</br>
-    源码地址：<a href="https://github.com/souying/vercel-api-proxy">https://github.com/souying/vercel-api-proxy</a>
+    <div class="wrapper">
+        <div class="UrlCheck">
+            <div class="row margin">
+                <div class="span10 noFloat textCenter">
+                    <h1 class="splash"><strong>【免费】</strong>的Vercel反向代理</strong></h1>
+                </div>
+                <div class="span10 noFloat">
+                    <div class="searchform">
+                        <input type="text" id="input" placeholder="请输入URL" name="domainname">
+                        <a id="submitBtn" title="反向代理">Reverse Proxy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <a href="https://vercel.com/" target="_blank"><img alt="vercel"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODMiIGhlaWdodD0iMjAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0i5Z+65LqOdmVyY2VsIj48dGl0bGU+5Z+65LqOdmVyY2VsPC90aXRsZT48ZyBzaGFwZS1yZW5kZXJpbmc9ImNyaXNwRWRnZXMiPjxyZWN0IHdpZHRoPSIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMCIgd2lkdGg9IjgzIiBoZWlnaHQ9IjIwIiBmaWxsPSIjMzMzMzMzIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjExMCI+PGltYWdlIHg9IjUiIHk9IjMiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCbWFXeHNQU0ozYUdsMFpYTnRiMnRsSWlCeWIyeGxQU0pwYldjaUlIWnBaWGRDYjNnOUlqQWdNQ0F5TkNBeU5DSWdlRzFzYm5NOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6SXdNREF2YzNabklqNDhkR2wwYkdVK1ZtVnlZMlZzUEM5MGFYUnNaVDQ4Y0dGMGFDQmtQU0pOTWpRZ01qSXVOVEkxU0RCc01USXRNakV1TURVZ01USWdNakV1TURWNklpOCtQQzl6ZG1jKyIvPjx0ZXh0IHg9IjUwNSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNTUwIj7ln7rkuo52ZXJjZWw8L3RleHQ+PC9nPjwvc3ZnPg=="></a>
+        <a href="#" target="_blank"><span></span><img alt="status"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTYiIGhlaWdodD0iMjAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0ic3RhdHVzOiBzdWNjZXNzIj48dGl0bGU+c3RhdHVzOiBzdWNjZXNzPC90aXRsZT48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NiIgaGVpZ2h0PSIyMCIgcng9IjMiIGZpbGw9IiNmZmYiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjQzIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iNDMiIHdpZHRoPSI1MyIgaGVpZ2h0PSIyMCIgZmlsbD0iIzk3Y2EwMCIvPjxyZWN0IHdpZHRoPSI5NiIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjx0ZXh0IGFyaWEtaGlkZGVuPSJ0cnVlIiB4PSIyMjUiIHk9IjE1MCIgZmlsbD0iIzAxMDEwMSIgZmlsbC1vcGFjaXR5PSIuMyIgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHRleHRMZW5ndGg9IjMzMCI+c3RhdHVzPC90ZXh0Pjx0ZXh0IHg9IjIyNSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iMzMwIj5zdGF0dXM8L3RleHQ+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjY4NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDMwIj5zdWNjZXNzPC90ZXh0Pjx0ZXh0IHg9IjY4NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDMwIj5zdWNjZXNzPC90ZXh0PjwvZz48L3N2Zz4="></a>
+        <a href="https://github.com/souying/vercel-api-proxy" target="_blank"><img alt="github"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODciIGhlaWdodD0iMjAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iR2l0aHVi5LuT5bqTIj48dGl0bGU+R2l0aHVi5LuT5bqTPC90aXRsZT48ZyBzaGFwZS1yZW5kZXJpbmc9ImNyaXNwRWRnZXMiPjxyZWN0IHdpZHRoPSIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMCIgd2lkdGg9Ijg3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjMzMzMzMzIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjExMCI+PGltYWdlIHg9IjUiIHk9IjMiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCbWFXeHNQU0ozYUdsMFpYTnRiMnRsSWlCeWIyeGxQU0pwYldjaUlIWnBaWGRDYjNnOUlqQWdNQ0F5TkNBeU5DSWdlRzFzYm5NOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6SXdNREF2YzNabklqNDhkR2wwYkdVK1IybDBTSFZpUEM5MGFYUnNaVDQ4Y0dGMGFDQmtQU0pOTVRJZ0xqSTVOMk10Tmk0Mk15QXdMVEV5SURVdU16Y3pMVEV5SURFeUlEQWdOUzR6TURNZ015NDBNemdnT1M0NElEZ3VNakExSURFeExqTTROUzQyTGpFeE15NDRNaTB1TWpVNExqZ3lMUzQxTnpjZ01DMHVNamcxTFM0d01TMHhMakEwTFM0d01UVXRNaTR3TkMwekxqTXpPQzQzTWpRdE5DNHdOREl0TVM0Mk1TMDBMakEwTWkweExqWXhRelF1TkRJeUlERTRMakEzSURNdU5qTXpJREUzTGpjZ015NDJNek1nTVRjdU4yTXRNUzR3T0RjdExqYzBOQzR3T0RRdExqY3lPUzR3T0RRdExqY3lPU0F4TGpJd05TNHdPRFFnTVM0NE16Z2dNUzR5TXpZZ01TNDRNemdnTVM0eU16WWdNUzR3TnlBeExqZ3pOU0F5TGpnd09TQXhMak13TlNBekxqUTVOUzQ1T1RndU1UQTRMUzQzTnpZdU5ERTNMVEV1TXpBMUxqYzJMVEV1TmpBMUxUSXVOalkxTFM0ekxUVXVORFkyTFRFdU16TXlMVFV1TkRZMkxUVXVPVE1nTUMweExqTXhMalEyTlMweUxqTTRJREV1TWpNMUxUTXVNakl0TGpFek5TMHVNekF6TFM0MU5DMHhMalV5TXk0eE1EVXRNeTR4TnpZZ01DQXdJREV1TURBMUxTNHpNaklnTXk0eklERXVNak11T1RZdExqSTJOeUF4TGprNExTNHpPVGtnTXkwdU5EQTFJREV1TURJdU1EQTJJREl1TURRdU1UTTRJRE1nTGpRd05TQXlMakk0TFRFdU5UVXlJRE11TWpnMUxURXVNak1nTXk0eU9EVXRNUzR5TXk0Mk5EVWdNUzQyTlRNdU1qUWdNaTQ0TnpNdU1USWdNeTR4TnpZdU56WTFMamcwSURFdU1qTWdNUzQ1TVNBeExqSXpJRE11TWpJZ01DQTBMall4TFRJdU9EQTFJRFV1TmpJMUxUVXVORGMxSURVdU9USXVOREl1TXpZdU9ERWdNUzR3T1RZdU9ERWdNaTR5TWlBd0lERXVOakEyTFM0d01UVWdNaTQ0T1RZdExqQXhOU0F6TGpJNE5pQXdJQzR6TVRVdU1qRXVOamt1T0RJMUxqVTNRekl3TGpVMk5TQXlNaTR3T1RJZ01qUWdNVGN1TlRreUlESTBJREV5TGpJNU4yTXdMVFl1TmpJM0xUVXVNemN6TFRFeUxURXlMVEV5SWk4K1BDOXpkbWMrIi8+PHRleHQgeD0iNTI1IiB5PSIxNDAiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiBmaWxsPSIjZmZmIiB0ZXh0TGVuZ3RoPSI1OTAiPkdpdGh1YuS7k+W6kzwvdGV4dD48L2c+PC9zdmc+"></a>
+    </div>
 </body>
+<script>
+    // 这个是正则的啊喂
+    const urlPattern = /^(http|https):\/\/[^ "]+$/;
+
+    // 提前把变量定义出来
+    const input = document.getElementById('input');
+    const submit = document.getElementById('submitBtn');
+
+    // 监听一个键盘的Enter事件
+    input.addEventListener("keyup", (event) => {
+        if (event.key === "Enter") {
+            console.log("Enter键被按下了");
+            // 执行你的操作
+            jumpFn(event)
+        }
+    });
+
+    // 箭筒一个 按钮被点击的事件
+    submit.addEventListener('click', jumpFn)
+
+    // 这个是 主函数
+    function jumpFn(event) {
+        const inputVal = input.value;
+        // 执行你的操作
+        if (!inputVal) {
+            console.log("这也妹有输入内容鸭！");
+        } else if (!urlPattern.test(inputVal)) {
+            // 输入的内容不是 URL，给出提示信息
+            alert("你得输入有效的 URL鸭！");
+        } else {
+            // 业务逻辑
+            console.log('开始处理业务逻辑')
+            // 获取当前的url
+            // const BaseUrl = 'https://fy-proxy.vercel.app';
+            const BaseUrl = location.origin;
+            // 把输入的内容一截两段
+            const [protocol, hostname] = inputVal.split(':/');
+
+            // 拼接跳转链接
+            const jumpUrl = `${BaseUrl}/${protocol}${hostname}`;
+            // console.log(jumpUrl)
+            // 跳出去
+            window.open(jumpUrl, "_blank");
+            // 完成
+        }
+    }
+</script>
+
 </html>
